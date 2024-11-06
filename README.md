@@ -33,10 +33,9 @@ python TempMail.py
 ```
 
 The program will:
-1. Display an ASCII welcome menu.
-2. Generate a random username and password.
-3. Fetch a valid domain from the `mail.tm` API.
-4. Create the account and display the generated email and password if successful.
+1. Generate a random username and password.
+2. Fetch a valid domain from the `mail.tm` API.
+3. Create the account and display the generated email and password if successful.
 
 ## Example Output
 
