@@ -1,6 +1,6 @@
-# TempMailCLI
+# TemporalMailCLI
 
-**TempMailCLI** is a command-line tool to generate and manage temporary email accounts directly from the Linux terminal. This project allows you to quickly create an email address and password for short-term usage, ideal for receiving verification links, temporary notifications, and protecting your main inbox from spam.
+**TemporalMailCLI** is a command-line tool to generate and manage temporary email accounts directly from the Linux terminal. This project allows you to quickly create an email address and password for short-term usage, ideal for receiving verification links, temporary notifications, and protecting your main inbox from spam.
 
 ## Features
 
@@ -13,11 +13,11 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/FiliusMahiae/TempMailCLI.git
+   git clone https://github.com/FiliusMahiae/TemporalMailCLI.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd TempMailCLI
+   cd TemporalMailCLI
    ```
 3. Install dependencies:
    ```bash
