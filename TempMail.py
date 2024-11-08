@@ -14,8 +14,13 @@ def generate_random_password(length=12):
 
 # Fetches a domain from the mail.tm API
 def get_domain():
-    response = requests.get('https://api.mail.tm/domains').json()
-    return response['hydra:member'][0]['domain']
+    try:
+        response = requests.get('https://api.mail.tm/domains', timeout=5)
+        response.raise_for_status()
+        return response.json()['hydra:member'][0]['domain']
+    except requests.RequestException as e:
+        print("Error fetching domain:", e)
+        return None
 
 # Creates an account with the generated email and password
 def create_account(email, password):
